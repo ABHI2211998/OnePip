@@ -1,0 +1,130 @@
+.experience {
+  background-color: #04150d;
+}
+
+.experience-content-box p:nth-child(1) {
+  color: white;
+  font-size: 2rem;
+}
+
+.experience-content-box h2 {
+  color: #4ade80;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+.experience-content-box p:nth-child(3) {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.dekstop-app {
+  color: rgb(167, 164, 164);
+  font-size: 1.1rem;
+}
+
+.window {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 5px;
+  border: 2px solid #4ade80;
+  border-radius: 12px;
+
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.05);
+
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  animation: pulseGreen 2s infinite;
+}
+
+.window:hover {
+  background: rgba(74, 222, 128, 0.1);
+  color: #4ade80;
+  box-shadow: 0 0 20px rgba(74, 222, 128, 0.6);
+}
+
+@media (max-width: 576px) {
+  .window {
+    width: 100%;
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  .experience-content-box h2 {
+    font-size: 2rem;
+  }
+
+  .experience-content-box p:nth-child(3) {
+    font-size: 1rem;
+  }
+}
+
+.ph-lap-effect {
+  position: absolute;
+
+  left: -50px;
+  z-index: 0;
+}
+
+.lap-right {
+  position: absolute;
+  top: 40px;
+  right: 60px;
+}
+
+.ghg {
+  position: absolute;
+  top: 80px;
+}
+
+@media (max-width: 1295px) {
+  .experience-content-box p:nth-child(1) {
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  .experience-content-box h2 {
+    color: #4ade80;
+    font-size: 2.5rem;
+    font-style: italic;
+  }
+
+  .experience-content-box p:nth-child(3) {
+    color: white;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .window {
+    padding: 9px 1px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .sdsdsd {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .experience-content-box p:nth-child(3) {
+    color: white;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .experience-content-box p:nth-child(3) {
+    color: white;
+    font-size: 0.7rem;
+  }
+}

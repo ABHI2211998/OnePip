@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.stackdivs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  height: 2900px;
+  align-items: center;
+  gap: 24px;
+  margin: 50px auto;
+}
+
+.stackones {
+  top: 80px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: url(images/bg_img.png);
+  background-size: 101% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #04150d;
+  overflow: hidden;
+}
+
+.stackones video {
+  position: absolute;
+  top: -30px;
+  left: -40px;
+  max-width: 105%;
+  z-index: -1;
+}
+
+.stacktwos {
+  top: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: url(images/bg_img.png);
+  background-size: 101% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #04150d;
+  overflow: hidden;
+}
+
+.stacktwos video {
+  position: absolute;
+  top: -25px;
+  left: -40px;
+  width: 105%;
+  max-width: 110%;
+  z-index: -1;
+}
+
+.stackthrees {
+  top: 140px;
+  background: url("images/bg_img.png") center/contain no-repeat, #04150d;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-size: 105% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.stackthrees video {
+  position: absolute;
+  top: -20px;
+  left: -40px;
+  width: 105%;
+  z-index: -1;
+}
+
+.stackfours {
+  top: 170px;
+  background: url("images/bg_img.png") center/contain no-repeat, #04150d;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-size: 101% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.stackfours video {
+  position: absolute;
+  top: -20px;
+  left: -40px;
+  z-index: -1;
+  width: 105%;
+}
+
+.stackfives {
+  top: 210px;
+  background: url("images/bg_img.png") center/contain no-repeat, #04150d;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-size: 101% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.stackfives video {
+  position: absolute;
+  top: -20px;
+  left: -40px;
+  z-index: -1;
+  width: 105%;
+}
+
+.stacksixs {
+  top: 250px;
+  background: url("images/bg_img.png") center/contain no-repeat, #04150d;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-size: 101% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.stacksixs video {
+  position: absolute;
+  top: -20px;
+  left: -30px;
+  z-index: -1;
+  width: 105%;
+}
+
+.client-feature-text {
+  font-size: 1.1rem;
+}
