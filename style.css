@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -325,7 +326,7 @@ html {
 
 @media (max-width: 662px) {
   .hero-text {
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding: 0 10px;
   }
 }
@@ -341,6 +342,7 @@ html {
     font-size: 4rem;
   }
 }
+
 @media (max-width: 600px) {
   .hero-title {
     font-size: 2.8rem;
@@ -359,6 +361,7 @@ html {
     flex-direction: column;
     gap: 10px;
   }
+
   .tagline {
     font-size: 0.7rem;
   }
@@ -440,7 +443,7 @@ html {
 
 @media (max-width: 1000px) {
   .why-section h2 {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
 }
 
@@ -576,6 +579,11 @@ html {
   }
 }
 
+@media (max-width: 390px) {
+  .linxu {
+    margin-top: 20px !important;
+  }
+}
 /* ///////////////////////////////////for-broker///////////////////////////////// */
 
 .for-broker {
