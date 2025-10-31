@@ -845,6 +845,7 @@ html {
   top: -20px;
   width: 108%;
   z-index: -1;
+  left: -40px;
 }
 
 .hero-sec-trade {
@@ -1651,7 +1652,7 @@ html {
 /* //////////////////////////////TRADING PLATFORM//////////////////////////////////// */
 
 .hero-trading-title {
-  font-size: 3rem;
+  font-size: 4rem;
   padding-bottom: 5px;
   background: linear-gradient(90deg, #4ade80, #bbf7d1);
   -webkit-background-clip: text;
@@ -1659,6 +1660,7 @@ html {
   background-clip: text;
   color: transparent;
   padding: 10px 0;
+  font-weight: 500;
 }
 
 .hero-trading-text {
@@ -1666,6 +1668,7 @@ html {
   font-size: 1.1rem;
   color: #dcdcdc;
   padding-bottom: 10px;
+  font-weight: 400;
 }
 
 .hero-trading-section {
