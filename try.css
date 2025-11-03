@@ -1,130 +1,282 @@
-.experience {
+.trad-platform {
   background-color: #04150d;
 }
 
-.experience-content-box p:nth-child(1) {
-  color: white;
-  font-size: 2rem;
-}
-
-.experience-content-box h2 {
-  color: #4ade80;
-  font-size: 3rem;
-  font-style: italic;
-}
-
-.experience-content-box p:nth-child(3) {
-  color: white;
-  font-size: 1.3rem;
-}
-
-.dekstop-app {
-  color: rgb(167, 164, 164);
-  font-size: 1.1rem;
-}
-
-.window {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  width: 100%;
-  padding: 5px;
-  border: 2px solid #4ade80;
+.feature-box {
+  background: linear-gradient(
+    145deg,
+    rgba(74, 222, 128, 0.15),
+    rgba(74, 222, 128, 0.05)
+  );
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  opacity: 80%;
+  padding: 10px;
   border-radius: 12px;
+  display: flex;
+  border: 1px solid rgba(74, 222, 128, 0.3);
 
-  font-size: 12px;
+  align-items: flex-start;
+  gap: 8px;
   font-weight: 600;
-  color: white;
-  text-decoration: none;
-  background: rgba(255, 255, 255, 0.05);
-
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-  animation: pulseGreen 2s infinite;
+  color: #ffffff;
+  font-size: 14px;
+}
+.Admin-feature-box {
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
 }
 
-.window:hover {
-  background: rgba(74, 222, 128, 0.1);
+.Admin-feature-title {
   color: #4ade80;
-  box-shadow: 0 0 20px rgba(74, 222, 128, 0.6);
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
 }
 
-@media (max-width: 576px) {
-  .window {
-    width: 100%;
-    font-size: 14px;
-    padding: 8px 15px;
-  }
-
-  .experience-content-box h2 {
-    font-size: 2rem;
-  }
-
-  .experience-content-box p:nth-child(3) {
-    font-size: 1rem;
-  }
+.Admin-feature-text {
+  color: #ffffff; /* white/light text */
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.5;
 }
 
-.ph-lap-effect {
+.feature-box svg {
+  flex-shrink: 0;
+  color: #ffffff;
+}
+
+.content-top h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.content-top h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.stackdiv {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  height: 3500px;
+  align-items: center;
+  gap: 24px;
+  margin: 50px auto;
+}
+
+.stackcard {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 450px;
+  position: sticky;
+  color: rgb(255, 255, 255);
+  margin: 0px 20px;
+  border-radius: 32px;
+  padding: 20px;
+}
+
+.no-height {
+  height: 0 !important;
+}
+
+.second-img {
   position: absolute;
-
-  left: -50px;
-  z-index: 0;
+  top: -130px;
+  right: 50px;
 }
 
-.lap-right {
+.img-three {
   position: absolute;
-  top: 40px;
-  right: 60px;
+  top: -20px;
+  left: 0;
 }
 
-.ghg {
+.four-img {
   position: absolute;
+  left: 80px;
+}
+
+.six-img {
+  position: absolute;
+  left: 80px;
+  top: 15px;
+}
+
+.content-top-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.content-top,
+.content-bottom {
+  display: flex;
+  flex-wrap: wrap; /* row ke andar wrap karega */
+  gap: 2px 0;
+  flex-direction: column;
+}
+.Admin-content-top,
+.Admin-content-bottom {
+  display: flex;
+  flex-wrap: wrap; /* row ke andar wrap karega */
+  /* gap: 20px 0; */
+}
+
+.stackone {
   top: 80px;
+
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 105% auto;
 }
 
-@media (max-width: 1295px) {
-  .experience-content-box p:nth-child(1) {
-    color: white;
-    font-size: 1.2rem;
-  }
+.stackone video {
+  position: absolute;
+  top: -20px;
+  width: 108%;
+  z-index: -1;
+  left: -40px;
+}
 
-  .experience-content-box h2 {
-    color: #4ade80;
-    font-size: 2.5rem;
-    font-style: italic;
-  }
+.hero-sec-trade {
+  height: auto;
+}
 
-  .experience-content-box p:nth-child(3) {
-    color: white;
-    font-size: 1rem;
+.stacktwo {
+  top: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: url("images/WebTrading.png") center/contain no-repeat, #04150d;
+  background-size: 105% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stackthree {
+  top: 140px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-size: 105% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background: url("images/WebTrading.png") center/contain no-repeat, #04150d;
+}
+
+.stackthree video {
+  position: absolute;
+  object-fit: cover;
+  width: 120%;
+  z-index: -1;
+  top: -19px;
+  right: -20px;
+}
+
+.stackfour {
+  top: 170px;
+  background: url("images/AlgorithmicTrading.png") center/contain no-repeat,
+    #04150d;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-size: 101% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stackfive {
+  top: 210px;
+  background: url("images/Market.png") center/contain no-repeat, #04150d;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-size: 101% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stacksix {
+  top: 250px;
+  background: url("images/VirtualHosting.png") center/contain no-repeat, #04150d;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-size: 101% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.stackseven {
+  top: 290px;
+  background: url("images/TradingSignals.png") center/contain no-repeat, #04150d;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-size: 101% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.learn-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #4ade80;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.learn-more::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  transition: width 0.3s ease;
+}
+
+.learn-more:hover {
+  color: #22c55e; /* darker green */
+}
+
+.learn-more:hover::after {
+  width: 100%;
+}
+
+.learn-more svg {
+  transition: transform 0.3s ease;
+}
+
+.learn-more:hover svg {
+  transform: translateX(6px);
+}
+
+@media (max-width: 992px) and (min-width: 320px) {
+  .stackcard {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 450px;
+    /* position: unset !important; */
+    color: rgb(255, 255, 255);
+    margin: 0px 20px;
+    border-radius: 32px;
+    padding: 20px;
   }
 }
 
-@media (max-width: 700px) {
-  .window {
-    padding: 9px 1px;
-    font-size: 10px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .sdsdsd {
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 500px) {
-  .experience-content-box p:nth-child(3) {
-    color: white;
-    font-size: 0.9rem;
-  }
-}
-
-@media (max-width: 400px) {
-  .experience-content-box p:nth-child(3) {
-    color: white;
-    font-size: 0.7rem;
+@media (max-width: 990px) {
+  .stacktwo,
+  .stackthree,
+  .stackfour,
+  .stackfive,
+  .stacksix,
+  .stackseven {
+    background: none;
   }
 }

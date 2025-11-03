@@ -1649,6 +1649,19 @@ html {
     font-size: 1rem;
   }
 }
+
+@media (max-width: 590px) {
+  .trading-products-text p {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-trading-section h1 {
+    font-size: 2.2rem;
+  }
+}
+
 /* //////////////////////////////TRADING PLATFORM//////////////////////////////////// */
 
 .hero-trading-title {
@@ -3001,5 +3014,13 @@ section.blog-section h1 {
   }
   .pp-section-title {
     font-size: 18px;
+  }
+}
+
+/* //////////////////Algorithmic///////////////// */
+
+@media (max-width: 422px) {
+  .Algorithmic {
+    font-size: 11px;
   }
 }
