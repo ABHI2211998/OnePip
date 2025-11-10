@@ -1538,7 +1538,11 @@ html {
   transform: translateY(0);
   box-shadow: 0 4px 10px rgba(74, 222, 128, 0.3);
 }
-
+@media (max-width: 990px) {
+  .question-section {
+    padding: 0px 0;
+  }
+}
 /* //////FOOTER///////// */
 
 .main-content {
@@ -3332,3 +3336,20 @@ section.blog-section h1 {
     font-size: 11px;
   }
 }
+
+/* @media (max-width: 1400px) {
+  .content-bottom p {
+    font-size: 11px !important;
+  }
+}
+
+@media (max-width: 1400px) {
+  .content-bottom ul li span {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 1400px) {
+  .content-top h2 {
+    font-size: 20px !important;
+  }
+} */
