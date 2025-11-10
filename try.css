@@ -256,6 +256,10 @@
 .learn-more:hover svg {
   transform: translateX(6px);
 }
+.hide-on-web {
+  display: none;
+  background-color: #04150d;
+}
 
 @media (max-width: 992px) and (min-width: 320px) {
   .stackcard {
@@ -267,6 +271,15 @@
     margin: 0px 20px;
     border-radius: 32px;
     padding: 20px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 320px) {
+  .hide-no-tab768 {
+    display: none;
+  }
+  .hide-on-web {
+    display: block;
   }
 }
 
