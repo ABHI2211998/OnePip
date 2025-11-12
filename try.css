@@ -293,3 +293,20 @@
     background: none;
   }
 }
+
+@media (max-width: 1400px) {
+  .content-bottom p {
+    font-size: 11px !important;
+  }
+}
+
+@media (max-width: 1400px) {
+  .content-bottom ul li span {
+    font-size: 12px !important;
+  }
+}
+@media (max-width: 1400px) {
+  .content-top h2 {
+    font-size: 20px !important;
+  }
+}
